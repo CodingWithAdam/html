@@ -23,6 +23,16 @@ button {
   cursor: pointer;
   width: 100%;
 }
+button.social{
+  background-color: gray;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
 
 /* Add a hover effect for buttons */
 button:hover {
@@ -68,4 +78,30 @@ span.psw {
   .cancelbtn {
     width: 100%;
   }
+}
+.button.social 
+{
+   margin-botom: 20px;
+   width: 220px;
+   height: 32px;
+   border: none;
+   border-radius: none;
+   border-bottom: 1px solid #aaa;
+   color:#fff;
+   font-family: sans-serif;
+   font-weight: 500;
+   transition: 0.2s ease;
+   cursor:pointer;
+}
+.facebook
+{
+   background: #32508e;
+}
+.twitter
+{
+   background: #55acee;
+}
+.google
+{
+   background: #dd4b39;
 }
